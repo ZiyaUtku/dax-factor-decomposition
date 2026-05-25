@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data caches
+*.csv
+*.parquet
+*.pkl
+yfinance_cache/
+
+# Keep the output image, ignore other generated files
+outputs/*
+!outputs/dax_factor_decomposition.png
+!outputs/.gitkeep

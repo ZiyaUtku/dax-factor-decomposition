@@ -63,17 +63,6 @@ A 5-year factor decomposition of the German DAX index into **Market**, **Value**
 - **No transaction costs** modeled.
 - **Survivorship.** The DAX 40 constituent list is current as of the run date; historical index membership changes are not back-adjusted.
 
-## How to Run
-
-```bash
-git clone https://github.com/<your-username>/dax-factor-decomposition.git
-cd dax-factor-decomposition
-pip install -r requirements.txt
-python dax_factor_decomposition.py
-```
-
-Output appears in `outputs/dax_factor_decomposition.png` along with regression tables and attribution stats in the terminal.
-
 ## Requirements
 
 - Python 3.10+

@@ -2,8 +2,6 @@
 
 A 5-year factor decomposition of the German DAX index into **Market**, **Value**, **Momentum**, **Size**, and **Quality** factors, with return attribution, risk attribution, and out-of-sample validation.
 
-![DAX Factor Decomposition Dashboard](outputs/dax_factor_decomposition.png)
-
 ## Key Findings
 
 1. **The DAX is 91% market beta.** Once you control for general European equity exposure, the DAX has essentially no statistically significant tilt to Value, Momentum, or Quality.
